@@ -188,31 +188,3 @@ h2 { font-size: clamp(46px, 6vw, 82px); letter-spacing: -.04em; }
   .footer-links { flex-wrap: wrap; margin: 45px 0 30px; }
   .copyright { text-align: left; }
 }
-
-/* Snow Co Couture Header Styling */
-.snowco-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(to bottom, #0A0A0A 0%, #D4AF37 100%);
-  padding: 20px 60px;
-  border-bottom: 1px solid #D4AF37;
-}
-
-.snowco-header .logo img {
-  height: 60px;
-}
-
-.nav-links a {
-  color: #C0C0C0;
-  text-decoration: none;
-  font-family: 'Didot', serif;
-  font-size: 18px;
-  margin: 0 20px;
-  transition: color 0.3s, border-bottom 0.3s;
-}
-
-.nav-links a:hover {
-  color: #D4AF37;
-  border-bottom: 2px solid #D4AF37;
-}
